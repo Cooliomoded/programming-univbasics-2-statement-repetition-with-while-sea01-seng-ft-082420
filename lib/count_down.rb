@@ -10,9 +10,8 @@
 #counts from 10 to 1
 #outputs Happy New Year!
 
-exit_number = 1
 count = 10
-while count > 1 && != exit_number do
+while count > 1 && != 1 do
   puts "#{count}"
   count -= 1
 end
